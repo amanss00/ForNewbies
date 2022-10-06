@@ -4,9 +4,9 @@ using namespace std;
 int main(){
     
     int row, column;
-    cout<<"Enter the number rows: "<<endl;
+    cout<<"Enter the number rows: "<<"\n";
     cin>>row;
-    cout<<"Enter the number columns: "<<endl;
+    cout<<"Enter the number columns: "<<"\n";
     cin>>column;
 
     for(int i=1;i<=row;i++){
@@ -15,9 +15,9 @@ int main(){
                 cout<<"* ";
             }
             else{
-                cout<<"  ";
+                cout<<"   ";
             }
         }
-        cout<<endl;
+        cout<<"\n";
     }
 }
