@@ -4,9 +4,11 @@ using namespace std;
 int main(){
     
     int row, column;
-    cout<<"Enter the number rows: "<<"\n";
+    // here we take rows from the user.
+    cout<<"Enter the number of rows: "<<"\n";
     cin>>row;
-    cout<<"Enter the number columns: "<<"\n";
+    // here we take coloumns from the users.
+    cout<<"Enter the number of columns: "<<"\n";
     cin>>column;
 
     for(int i=1;i<=row;i++){
