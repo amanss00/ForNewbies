@@ -2,14 +2,13 @@
 using namespace std;
 int main()
 {
-
     int n;
-    cout << "Enter the size of array  ";
-    cin >> n;
+    cout<<"Enter the size of array: ";
+    cin>>n;
     int array[n];
-    for (int i = 0; i < n; i++)
+    for (int i=0; i< n; i++)
     {
-        cout << "Enter the array of elements   " << i << " :-  ";
+        cout<<"Enter the array of elements: "<<i<<endl;
         cin >> array[i];
     }
 
