@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter the size of array  ";
+    cout << "define array size=   ";
     cin >> n;
     int array[n];
     for (int i = 0; i < n; i++)
     {
-        cout << "Enter the array of elements   " << i << " :-  ";
+        cout << "Enter the elements you want to add   " << i << " :-  ";
         cin >> array[i];
     }
     for (int i = 0; i < n - 1; i++)
