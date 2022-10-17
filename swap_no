@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+template <class T>
+void swap_no( T x , T y)
+{
+    T temp;
+    temp = x;
+    x = y;
+    y= temp;
+    cout <<x<<"  "<<y<<endl;
+}
+
+int main() {
+    int x,y;
+    float a,b;
+
+    cout <<"ENTER YOUR FIRST INTEGER NO = ";
+    cin >>x;
+
+    cout <<"ENTER YOUR SECOND INTEGER NO = ";
+    cin >>y;
+
+    cout <<"ENTER YOUR FIRST FLOAT NO = ";
+    cin >>a;
+
+    cout <<"ENTER YOUR SECOND FLOAT NO = ";
+    cin >>b;
+    swap_no(x,y);
+    swap_no(a,b);
+
+
+}
