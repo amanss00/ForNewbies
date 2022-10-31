@@ -31,8 +31,8 @@ void Graph::BFS(int s)
 
 	while(!queue.empty())
 	{
-		s = queue.front();
-		cout << s << " ";
+		s=queue.front();
+		cout<<s<< " ";
 		queue.pop_front();
 		for (auto adjecent: adj[s])
 		{
@@ -54,7 +54,7 @@ int main()
 	g.addEdge(2, 3);
 	g.addEdge(3, 3);
 
-	cout << "Following is Breadth First Traversal "
+	cout<< "Following is Breadth First Traversal "
 		<< "(starting from vertex 2) \n";
 	g.BFS(2);
 
